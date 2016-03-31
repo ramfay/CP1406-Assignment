@@ -1,0 +1,146 @@
+/*
+Site-wide CSS
+*/
+
+html {
+    min-width: 1500px;
+}
+
+body {
+    background-color: #dcdedd;
+}
+
+header {
+    background-color:#dcdedd;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*This is the Navigation Bar of Death & Doom!*/
+nav ul{
+    list-style-type: none;
+    margin-top: 3px;
+    padding 0;
+    overflow: hidden;
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    padding: 25px;
+}
+
+nav li a {
+    display: inline-block;
+    padding: 8px;
+    color: white;
+}
+
+nav li a:hover {
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #C8C8C8;
+    color: #00bcb4;
+}
+
+.active {
+    background-color: #00bcb4;
+}
+
+nav li a.shopbutton:hover {
+
+}
+
+/*
+Guess I'm not using this then, hey!
+.shopbutton {
+    float: left;
+    border: 2px solid #00bcb4;
+    background-color: #00bcb4;
+    border-radius: 25px
+}
+*/
+
+/*
+Index CSS
+*/
+
+.bannerimage {
+    margin-left: 400px;
+}
+
+.bannertext {
+    float: right;
+    margin-top: 200px;
+    margin-right: 850px;
+}
+
+.primarycta{
+    border: 3px solid;
+    text-align: center;
+    border-top-color: #4ECDC8;
+    border-right-color: #28938F;
+    border-bottom-color: #00908B;
+    border-left-color: #27C2BC;
+    border-radius:17px;
+    background-color: #00bcb4;
+    width: 15%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    float: right;
+    margin-top: -254px;
+    margin-right: 450px;
+    display: block;
+}
+
+.primarycta a {
+    text-decoration: none;
+}
+
+/*
+Shop CSS
+*/
+
+
+
+/*
+What is Cosplay CSS
+*/
+
+
+
+/*
+About Us CSS
+*/
+
+
+
+/*
+Party Sign-Up CSS
+*/
+
+.partytext {
+    float: left;
+}
+
+.pricelabel {
+    display: inline-block;
+    width: 60px;
+}
+
+.specificnumber {
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.signupform {
+    float: right;
+}
+
