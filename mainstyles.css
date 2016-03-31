@@ -1,5 +1,7 @@
 /*
 Site-wide CSS
+
+dcdedd
 */
 
 html {
@@ -7,7 +9,7 @@ html {
 }
 
 body {
-    background-color: #dcdedd;
+    background-color: #1F1F1F;
     font-family: 'Hind', sans-serif;
 }
 
@@ -17,6 +19,11 @@ header {
 
 h1, h2 {
     font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color:
 }
 
 
@@ -64,6 +71,27 @@ nav li a.shopbutton:hover {
 
 }
 
+.testing {
+    border: 3px solid;
+    text-align: center;
+    border-top-color: #4ECDC8;
+    border-right-color: #28938F;
+    border-bottom-color: #00908B;
+    border-left-color: #27C2BC;
+    border-radius:17px;
+    background-color: #00bcb4;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: block;
+    width: 15%;
+    }
+
+.testing a {
+    text-decoration: none;
+}
+
+
+
 /*
 Guess I'm not using this then, hey!
 .shopbutton {
@@ -76,16 +104,24 @@ Guess I'm not using this then, hey!
 
 /*
 Index CSS
+
+ float: right;
+    margin-top: 200px;
+    margin-right: 850px;
 */
 
 .bannerimage {
+    float: left;
     margin-left: 400px;
 }
 
 .bannertext {
-    float: right;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    margin-left: 150px;
     margin-top: 200px;
-    margin-right: 850px;
+    text-align: center;
+    position: relative;
 }
 
 .primarycta{
@@ -100,14 +136,16 @@ Index CSS
     width: 15%;
     padding-top: 8px;
     padding-bottom: 8px;
-    float: right;
-    margin-top: -254px;
-    margin-right: 450px;
+    float: left;
+    margin-top: 200px;
+    margin-left: 200px;
     display: block;
+    position: relative;
 }
 
-.primarycta a {
-    text-decoration: none;
+
+.indexcontent {
+    margin-top: 550px;
 }
 
 /*
@@ -148,6 +186,7 @@ Party Sign-Up CSS
 
 .signupform {
     float: right;
+    position: relative;
 }
 
 
