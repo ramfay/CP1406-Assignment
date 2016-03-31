@@ -1,7 +1,5 @@
 /*
 Site-wide CSS
-
-dcdedd
 */
 
 html {
@@ -75,23 +73,8 @@ nav li a.shopbutton:hover {
 
 }
 
-
-/*
-Guess I'm not using this then, hey!
-.shopbutton {
-    float: left;
-    border: 2px solid #00bcb4;
-    background-color: #00bcb4;
-    border-radius: 25px
-}
-*/
-
 /*
 Index CSS
-
- float: right;
-    margin-top: 200px;
-    margin-right: 850px;
 */
 
 .bannerimage {
@@ -128,9 +111,12 @@ Index CSS
     color: white;
 }
 
-
 .indexcontent {
     margin-top: 550px;
+}
+
+.indeximagebanner {
+    background-color: #0BD392;
 }
 
 /*
@@ -149,7 +135,16 @@ What is Cosplay CSS
 About Us CSS
 */
 
+.steve {
+    float: left;
+    position: relative;
+}
 
+.sally {
+    float: left;
+    position: relative;
+    margin-right: 20px;
+}
 
 /*
 Party Sign-Up CSS
