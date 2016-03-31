@@ -8,11 +8,17 @@ html {
 
 body {
     background-color: #dcdedd;
+    font-family: 'Hind', sans-serif;
 }
 
 header {
     background-color:#dcdedd;
 }
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 img.center {
   display: block;
@@ -142,5 +148,20 @@ Party Sign-Up CSS
 
 .signupform {
     float: right;
+}
+
+
+/*
+Contact Us CSS
+*/
+
+.contactinfo {
+    border: 1px solid;
+    width: auto;
+}
+
+.contactlabel {
+    display: inline-block;
+    width: 60px;
 }
 
