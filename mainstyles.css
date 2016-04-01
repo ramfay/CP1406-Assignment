@@ -14,6 +14,9 @@ body {
 
 }
 
+.wrapper{
+    height: 100%;
+}
 
 .container {
     width: 850px;
@@ -28,6 +31,20 @@ header {
     margin: 0;
 }
 
+.signup {
+    position: fixed;
+    top: 0;
+    margin-left: 1500px
+}
+
+.signup ul {
+    display:inline;
+
+}
+
+.signup li {
+    text-decoration: none;
+}
 
 h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
@@ -108,9 +125,44 @@ li a:hover:not(.active) {
 
 
 nav ul .shopnav a {
-    color: #00bcb4;
+    color: #FF8406;
     font-weight: bolder;
 }
+
+
+.cta{
+    border: 1px solid #00bcb4;
+    background-color: #00bcb4;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    border-radius: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: auto;
+}
+
+
+
+#footer {
+    background-color: #FF8436;
+    padding: 3px;
+    display: block;
+    margin: auto;
+    position: relative;
+    width:98%;
+    bottom: 0px;
+    margin-top: 150px;
+	clear: both;
+	text-align: center;
+    border-radius: 15px 15px 0 0;
+}
+
+#footer a {
+    color: white;
+}
+
 
 
 
@@ -128,30 +180,33 @@ Index CSS
     font-family: 'Montserrat', sans-serif;
     float: left;
     margin-left: 150px;
-    margin-top: 200px;
+    margin-top: 140px;
     text-align: center;
     position: relative;
+    color: #00bcb4;
+    font-size: 200%;
 }
 
 
 .primarycta{
     border: 3px solid;
     text-align: center;
-    border-top-color: #4ECDC8;
-    border-right-color: #28938F;
-    border-bottom-color: #00908B;
-    border-left-color: #27C2BC;
+    border-top-color: #00bcb4;
+    border-right-color: #00bcb4;
+    border-bottom-color: #00bcb4;
+    border-left-color: #00bcb4;
     border-radius:17px;
     background-color: #00bcb4;
     width: 250px;
     padding-top: 8px;
     padding-bottom: 8px;
     float: left;
-    margin-top: 200px;
+    margin-top: 170px;
     margin-left: 200px;
     display: block;
     position: relative;
     color: white;
+    font-size: 150%
 }
 
 
@@ -173,7 +228,7 @@ Index CSS
 
 
 .indeximagebanner {
-    background-color: #0BD392;
+    background-color: #00bcb4;
     margin:auto;
     display: block;
 }
@@ -181,7 +236,10 @@ Index CSS
 
 .alliteration {
     text-align: center;
+    font-size: 200%;
 }
+
+
 
 
 
@@ -189,7 +247,34 @@ Index CSS
 Shop CSS
 */
 
+.gallery {
+    margin: auto;
+}
 
+table {
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+table, th, td {
+    border: 1px solid white;
+    text-align: center;
+}
+
+
+th, td {
+    padding: 6px;
+}
+
+
+.shopform {
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding-left:10px;
+    padding-bottom: 15px;
+    width: 610px;
+}
 
 /*
 What is Cosplay CSS
@@ -235,7 +320,6 @@ Party Sign-Up CSS
     float: left;
 }
 
-
 .pricelabel {
     display: inline-block;
     width: 60px;
@@ -251,19 +335,15 @@ Party Sign-Up CSS
 .signupform {
     float: right;
     position: relative;
-    border: 3px dotted;
+    border: 5px dotted;
     padding: 5px;
     border-color: #FFDA09;
     border-radius: 18px 50px;
     padding: 5px 10px 25px 20px;
-    background-color: #1F1F38;
+    background-color: #FF8436;
     margin: 0;
 }
 
-
-.guidelines {
-    margin-top: 580px
-}
 
 
 /*
