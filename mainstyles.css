@@ -6,24 +6,52 @@ html {
     min-width: 1500px;
 }
 
+
 body {
     background-color: #1F1F1F;
     font-family: 'Hind', sans-serif;
     color: white;
+
 }
 
+
+.container {
+    width: 850px;
+    margin: auto;
+    display: block;
+    background-color: #1F1F1F;
+  }
+
+
 header {
-    background-color:;
+    background-color: #1F1F1F;
     margin: 0;
 }
+
 
 h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
+
+h1, h2 {
+    color: #FF8406;
+}
+
+
+h3 {
+    color: #ff8585;
+}
+
+
 a {
     text-decoration: none;
     color: #00C9C0;
+}
+
+
+h1 {
+    text-align: center;
 }
 
 
@@ -33,7 +61,10 @@ img.center {
   margin-right: auto;
 }
 
+
+
 /*This is the Navigation Bar of Death & Doom!*/
+
 nav ul{
     list-style-type: none;
     margin-top: 3px;
@@ -42,12 +73,15 @@ nav ul{
     border-bottom: 1px solid #404040;
     border-top: 1px solid #404040;
     text-align: center;
+    background-color: #1F1F1F;
 }
+
 
 nav li {
     display: inline;
     padding: 25px;
   }
+
 
 nav li a {
     display: inline-block;
@@ -55,9 +89,11 @@ nav li a {
     color: white;
 }
 
+
 nav li a:hover {
     color: white;
 }
+
 
 li a:hover:not(.active) {
     background-color: #404040;
@@ -65,13 +101,18 @@ li a:hover:not(.active) {
     border-left: white;
 }
 
+
 .active {
     background-color: #00bcb4;
 }
 
-nav li a.shopbutton:hover {
 
+nav ul .shopnav a {
+    color: #00bcb4;
+    font-weight: bolder;
 }
+
+
 
 /*
 Index CSS
@@ -82,6 +123,7 @@ Index CSS
     margin-left: 400px;
 }
 
+
 .bannertext {
     font-family: 'Montserrat', sans-serif;
     float: left;
@@ -90,6 +132,7 @@ Index CSS
     text-align: center;
     position: relative;
 }
+
 
 .primarycta{
     border: 3px solid;
@@ -100,7 +143,7 @@ Index CSS
     border-left-color: #27C2BC;
     border-radius:17px;
     background-color: #00bcb4;
-    width: 15%;
+    width: 250px;
     padding-top: 8px;
     padding-bottom: 8px;
     float: left;
@@ -111,13 +154,36 @@ Index CSS
     color: white;
 }
 
+
 .indexcontent {
-    margin-top: 550px;
+    margin-top: 500px;
 }
+
+
+.infobannerpics {
+    margin-left: 500px;
+    margin-right:120px;
+    position: relative;
+}
+
+
+.scary {
+    margin-top: 20px;
+}
+
 
 .indeximagebanner {
     background-color: #0BD392;
+    margin:auto;
+    display: block;
 }
+
+
+.alliteration {
+    text-align: center;
+}
+
+
 
 /*
 Shop CSS
@@ -129,22 +195,37 @@ Shop CSS
 What is Cosplay CSS
 */
 
+.cosplayis{
+    text-align: center;
+    font-size: 200%;
+}
+
 
 
 /*
 About Us CSS
 */
 
+.aboutpics {
+    display: block;
+    margin-left: 100px;
+}
+
+
 .steve {
     float: left;
     position: relative;
+    border-radius: 50%;
 }
+
 
 .sally {
     float: left;
     position: relative;
-    margin-right: 20px;
+    border-radius: 50%;
+    margin-left: 100px;
 }
+
 
 /*
 Party Sign-Up CSS
@@ -154,15 +235,18 @@ Party Sign-Up CSS
     float: left;
 }
 
+
 .pricelabel {
     display: inline-block;
     width: 60px;
 }
 
+
 .specificnumber {
     margin-left: 25px;
     margin-top: 5px;
 }
+
 
 .signupform {
     float: right;
@@ -176,13 +260,11 @@ Party Sign-Up CSS
     margin: 0;
 }
 
+
 .guidelines {
     margin-top: 580px
 }
 
-.guidelines h3{
-    color: #ff8585;
-}
 
 /*
 Contact Us CSS
@@ -190,8 +272,13 @@ Contact Us CSS
 
 .contactinfo {
     border: 1px solid;
-    width: auto;
+    width: 350px;
+    padding-left: 100px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
 }
+
 
 .contactlabel {
     display: inline-block;
